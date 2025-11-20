@@ -9,14 +9,14 @@ Minha base educacional foi estabelecida no Colégio Jambo, onde concluí o Ensin
 Sou apaixonado por tecnologia e direciono meus estudos e interesses para o desenvolvimento back-end, buscando aprimorar minhas habilidades na criação de sistemas robustos e eficientes.
 
 <p align="left">
-    <a href="https://github.com/Joaolima2003?tab=repositories&sort=stargazers">
+    <a href="https://github.com/JpLimaDev?tab=repositories&sort=stargazers">
         <img 
             alt="Estrelas" 
             title="Total de estrelas GitHub" 
             src="https://custom-icon-badges.demolab.com/static/v1?label=Estrelas&message=Meus%20Projetos&color=55960c&style=for-the-badge&labelColor=488207&logo=star&logoColor=white"
         />
     </a>
-    <a href="https://github.com/Joaolima2003?tab=followers">
+    <a href="https://github.com/JpLimaDev?tab=followers">
         <img 
             alt="Seguidores" 
             title="Me siga no GitHub" 
