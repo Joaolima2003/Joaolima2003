@@ -49,37 +49,7 @@ Sou apaixonado por tecnologia e direciono meus estudos e interesses para o desen
 ---
 
 ### 🤖 Linguagens e Tecnologias
-```mermaid
-sequenceDiagram
-    autonumber
-    participant C as Cliente (Navegador)
-    participant S as Servidor (Site)
 
-    Note over C,S: Conexão TCP estabelecida (3-way handshake já feito)
-
-    C->>S: ClientHello (supported_versions, cipher_suites, key_share, SNI, ALPN)
-    S-->>C: ServerHello (versão/cifra escolhidas, key_share)
-
-    Note over C,S: Ambos derivam segredos de handshake (HKDF) a partir do key_exchange
-
-    S-->>C: EncryptedExtensions
-    S-->>C: Certificate (cadeia X.509)
-    S-->>C: CertificateVerify (prova de posse da chave privada)
-    S-->>C: Finished (protegido com chave de handshake)
-
-    Note over C: Cliente valida certificado e Finished do servidor, depois deriva chaves de aplicação
-
-    C-->>S: Finished (protegido com chave de handshake)
-
-    Note over C,S: Handshake TLS concluído — comunicação segura estabelecida
-
-    C->>S: HTTP Request (criptografado)
-    S-->>C: HTTP Response (criptografado)
-
-    opt 0-RTT (quando há sessão anterior)
-        C->>S: Early Data (pode ser rejeitado pelo servidor)
-    end
-```
 
 
 <img 
