@@ -49,6 +49,7 @@ Sou apaixonado por tecnologia e direciono meus estudos e interesses para o desen
 ---
 
 ### 🤖 Linguagens e Tecnologias
+```mermaid
 sequenceDiagram
     autonumber
     participant C as Cliente (Navegador)
@@ -78,6 +79,7 @@ sequenceDiagram
     opt 0-RTT (quando há sessão anterior)
         C->>S: Early Data (pode ser rejeitado pelo servidor)
     end
+```
 
 
 <img 
